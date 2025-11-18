@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+/* .content {
+    background-color: #fff;
+    text-align: center;
+} */
+.recipe {
+    background-color: lightgray;
+    border-radius: 20px;
+    border: 2px solid lightgray;
+    width: 700px;
+    margin: 0 auto;
+    padding: 15px;
+}
+.recipe * {
+    margin: 10px;
+}
+.card {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    background-image: url(https://img.freepik.com/free-photo/table-full-food-chairs_23-2148941561.jpg?semt=ais_hybrid&w=740&q=80);
+    background-repeat: no-repeat;
+    background-position: 0% 60%;
+    width: 700px;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+.card {
+    padding: 1em 1em;
+}
+
+.card h1{
+    padding: 1em 1em;
+  
+}
+.main-menu {
+    padding-bottom: 20px;
+}
+
+.main-menu li{
+    display: inline-block;
+    
+    list-style: none;
+    background-color: green;
+    font-size: 0.8em;
+}
+.main-menu a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+    display: inline-block;
+}
+
+.main-menu a:hover{
+    background-color: lightgreen;
+    color: black;
+}
+.cta{
+    padding: 20px;
+    background-color: rgba(255 , 255, 255, 0.4);
+
+
+}
